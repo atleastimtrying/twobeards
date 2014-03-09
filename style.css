@@ -51,6 +51,14 @@ nav a{
 section{
   padding: 64px;
 }
+.loco{
+  background:url(loco.jpg);
+  background-size: cover;
+}
+section .wrapper{
+  background:rgba(255,255,255,0.9);
+  padding:32px;
+}
 footer{
   position:fixed;
   bottom:0;
@@ -64,6 +72,19 @@ footer{
 }
 footer a{
   color:rgb(59, 151, 250);
+}
+dl{
+  background:white;
+  padding:16px;
+}
+dt{
+  font-size:24px;
+  color:black;
+}
+dd{
+  font-size:16px;
+  color:#333;
+  border-bottom: 1px solid #333;
 }
 .wrapper{
   max-width:1000px;
